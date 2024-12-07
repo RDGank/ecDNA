@@ -1,3 +1,5 @@
 #ASCAT call unknown error length(files>0) !=True ?????
 #FACETs call unknown error 
 #squez cool
+attention：reference fasta must be the same as using preious
+use samtools view -H sample.bam to find the version of fasta
