@@ -6,3 +6,5 @@ use samtools view -H sample.bam to find the version of fasta
 
 sequenza-utils bam2seqz -gc gcap/hg19.gc50Base.wig.gz -F human_g1k_v37.fasta -n HJJ1.final.bam -t HJJ2.final.bam | gzip > HJJ.seqz.gz
 sequenza-utils seqz_binning -w 50 -s sample.seqz.gz | gzip > sample_small.seqz.gz
+
+fCNA's class is data.table and data frame ,you should modified as: as.data.table
